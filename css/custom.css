@@ -22,3 +22,17 @@
 .pcbUnit>.card-body>h5 {
     color: #06bbcc;
 }
+
+#minSlider {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #minSlider {
+        display: block;
+    }
+
+    #maxSlider {
+        display: none;
+    }
+}
