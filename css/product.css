@@ -8,14 +8,13 @@
 
 .panel-box {
     flex: 1 1 calc(33.33% - 20px);
-    /* Take up one-third of the width minus margins */
     margin: 10px;
-    /* Margin for spacing between boxes */
-    padding: 15px;
+    padding: 50px 15px;
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
+    position: relative;
 }
 
 .panel-box img {
@@ -60,6 +59,9 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    transform: translate(-50%, -0px);
 }
 
 .btns:hover {
