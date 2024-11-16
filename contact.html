@@ -134,9 +134,11 @@
                                         placeholder="Your Email" required>
                                 </div>
                                 <div class="col-lg-12 col-xl-6">
-                                    <input type="number" class="form-control border-0" name="phone" id="phone"
-                                        placeholder="Phone" required>
+                                    <input type="text" class="form-control border-0" name="phone" id="phone"
+                                        placeholder="Phone" required maxlength="10" pattern="\d{10}"
+                                        title="Please enter exactly 10 digits">
                                 </div>
+
                                 <div class="col-12 col-xl-6">
                                     <input type="text" class="form-control border-0" name="subject" id="subject"
                                         placeholder="Subject" required>
